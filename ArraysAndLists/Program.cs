@@ -25,11 +25,11 @@ namespace ArraysAndLists
             }
             foreach (int i in evens)
             {
-                Console.WriteLine(i);
+                Console.WriteLine($"{i} is an even number.");
             }
             foreach (int i in odds)
             {
-                Console.WriteLine(i);
+                Console.WriteLine($"{i} is an odd number.");
             }
 
         }
